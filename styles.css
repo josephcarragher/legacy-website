@@ -1,10 +1,20 @@
-@font-face {
+/*--@font-face {
     font-family: "San Francisco";
     font-weight: 400;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+*/
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff");
   }
 body{
     margin: 0;
     background: #FAF7F6;
     text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-left: 25%;
+    margin-right: 25%;
 }
