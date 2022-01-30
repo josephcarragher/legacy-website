@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>microblog</title>
+        <link rel="stylesheet" href="../blogstyle.css">
+    </head>
+    <body>
+        <h1>Vivado ML Standard on an Osprey ECU50</h1>
+        <h3>20 January 2022</h3>
+        <p>The Osprey Electronics (formerly Osprey Mining) ECU50 is a modified Xilinx Alveo U50 (specifically, a U50C). Graciously, Xilinx allows Alveo cards to be targeted on the free version of Vivado--here's how to do it with an ECU50.</p>
+        <p>Firstly, even though the U50 uses an XCVU35P, you cannot target that on the free version of Vivado--it will license error. You have to explicitly be targeting the U50 board (au50) rather than the FPGA part itself. It just so happens that, while Xilinx has since removed the board files from their github BoardStore, you can simply search through past commits and download the files from there. Inside of Vivado, you cannot simply browse local files to pick a board from. However, you can add</p>
+        <center><code>set_param board.repoPaths /path/to/directory/of/board/file</code></center>
+        <p>inside of the Vivado_init.tcl file located at ~/.Xilinx/Vivado (if not present, simply create it).</p>
+        <p>Now, you can go about making a bitstream all within the free version of Vivado for your ECU50. Have fun!</p>
+    </body>
+</html>
