@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff");
+  }
+  @media only screen and (max-width: 768px){
+    body{
+        margin: 0;
+        background: #FAF7F6;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h3{
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    p{
+        text-align: left;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    img{
+        height: auto;
+        width: 100vw;
+        margin: auto;
+        display: block;
+    }
+  }
+  @media only screen and (min-width: 768px){
+    body{
+        margin: 0;
+        background: #FAF7F6;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    h3{
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    p{
+        text-align: left;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    img{
+        height: auto;
+        width: 45vw;
+        margin: auto;
+        display: block;
+    }
+}
